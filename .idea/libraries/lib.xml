@@ -1,0 +1,58 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-api-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-chrome-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-chromium-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v85-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v110-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v111-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v112-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-edge-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-firefox-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-http-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-ie-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-java-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-json-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-manager-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-remote-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-safari-driver-4.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-support-4.9.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/../Libary/lib" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/commons-compress-1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/commons-io-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/commons-lang3-3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/gson-2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/httpclient-4.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/httpcore-4.4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/jarchivelib-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/jsoup-1.16.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/reload4j-1.2.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/slf4j-api-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/slf4j-reload4j-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jar_files/webdrivermanager-5.3.3-fat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-api-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-chrome-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-chromium-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v85-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v110-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v111-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-devtools-v112-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-edge-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-firefox-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-http-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-ie-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-json-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-manager-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-remote-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-safari-driver-4.9.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libary/selenium-support-4.9.0-sources.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../Libary/lib" recursive="false" />
+  </library>
+</component>
