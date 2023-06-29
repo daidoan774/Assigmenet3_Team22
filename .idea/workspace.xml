@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0d3d38f-7816-42d6-b342-30c029e01b26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Team22/pom.xml" afterDir="false" />
+    <list default="true" id="b0d3d38f-7816-42d6-b342-30c029e01b26" name="Changes" comment="Ass3_firstcommit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team22/src/main/java/Assigment3/Team22_Ass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team22/src/main/java/Assigment3/Team22_Ass3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Team22/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Team22/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "D:/AutoTest/jar_files/webdrivermanager-5.3.3-fat.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/AutoTest/jar_files/webdrivermanager-5.3.3-fat.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Team22_Ass3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team22" />
@@ -65,6 +74,19 @@
       <option name="presentableId" value="Default" />
       <updated>1687870892391</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ass3_firstcommit">
+      <option name="closed" value="true" />
+      <created>1687871522845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687871522845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ass3_firstcommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ass3_firstcommit" />
   </component>
 </project>

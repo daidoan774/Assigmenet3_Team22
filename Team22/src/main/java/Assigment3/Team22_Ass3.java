@@ -26,42 +26,85 @@ public class Team22_Ass3 {
     public WebElement passW;
     @FindBy(how = How.XPATH, using = "//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']")
     public WebElement btnLogin;
+    @FindBy(how = How.XPATH, using = "//a[@class='oxd-main-menu-item']/span[text()='My Info']")
+    public WebElement btnInfor;
 
-    public Team22_Ass3(){
+    @FindBy(how = How.XPATH, using = "//label[text()='Employee Full Name']/../following-sibling::div//input[@name='firstName']")
+    public WebElement firstname;
+    @FindBy(how = How.XPATH, using = "//label[text()='Employee Full Name']/../following-sibling::div//input[@name='middleName']")
+    public WebElement midlename;
+    @FindBy(how = How.XPATH, using = "//label[text()='Employee Full Name']/../following-sibling::div//input[@name='lastName']")
+    public WebElement lastname;
+    @FindBy(how = How.XPATH, using = "//label[text()='Employee Id']/../following-sibling::div//input[@class='oxd-input oxd-input--active']")
+    public WebElement eloId;
+    @FindBy(how = How.XPATH, using = "//label[text()='Nickname']/../following-sibling::div//input[@class='oxd-input oxd-input--active']")
+    public WebElement nickName;
+    @FindBy(how = How.XPATH, using = "//label[text()='Other Id']/../following-sibling::div//input[@class='oxd-input oxd-input--active']")
+    public WebElement otherId;
+
+
+    public Team22_Ass3() {
         edriver = new ChromeDriver();
         PageFactory.initElements(edriver, this);
         ewait = new WebDriverWait(edriver, Duration.ofSeconds(5));
     }
+
     @Before
-    public void setUp(){
+    public void setUp() {
         edriver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
+
     @Test
-    public void test() throws Exception{
-        waitUntilElementVisible(userName);
-        waitUntilElementVisible(passW);
-        userName.sendKeys("Admin");
-        passW.sendKeys("admin123");
-        btnLogin.click();
+    public void test() throws Exception {
+        enterText(userName, "Admin");
+        enterText(passW, "admin123");
+        clic(btnLogin);
+        clic(btnInfor);
+
+        enterText(firstname, "Automation");
+        enterText(midlename, "22");
+        enterText(lastname, "5");
+        enterText(nickName,"Testing");
+        enterText(eloId, "22");
+        enterText(otherId, "220");
 
     }
 
     @After
-    public void tearDown() throws InterruptedException{
+    public void tearDown() throws InterruptedException {
+
     }
-    public void waitUntilElementVisible(WebElement element){
+
+    public void waitUntilElementVisible(WebElement element) {
         int tryTimes = 0;
-        while (tryTimes < 2){
+        while (tryTimes < 2) {
             try {
                 ewait.until(ExpectedConditions.visibilityOf(element));
                 break;
-            }
-            catch (StaleElementReferenceException se){
-                tryTimes ++;
+            } catch (StaleElementReferenceException se) {
+                tryTimes++;
                 if (tryTimes == 2)
                     throw se;
             }
         }
     }
+
+    public void clic(WebElement element) {
+        waitUntilElementVisible(element);
+        element.click();
+    }
+
+    public void enterText(WebElement element, String text) {
+        waitUntilElementVisible(element);
+        if (!element.getAttribute("value").isEmpty()) {
+            element.clear();
+            element.sendKeys(text);
+        } else {
+            element.click();
+            element.sendKeys(text);
+        }
+    }
+
+
 }
 
